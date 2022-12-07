@@ -1,0 +1,570 @@
+body {
+  background-color: #101214;
+  display: flex;
+  flex-direction: row;
+
+
+
+  font-size: calc(10px + 2vmin);
+  color: rgb(199, 199, 199);
+}
+
+.gamecard {
+  margin-left: 10px;
+}
+
+
+.all {
+  display: flex;
+  flex-direction: row;
+}
+
+.user .popup {
+  background: linear-gradient(to right, #444444 -42%, #2e323d 100%);
+  height: 200px;
+  width: 58px;
+  top: 36px;
+  padding-top: 20px;
+  right: 20px;
+  flex-direction: column;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: flex-start;
+
+
+
+  position: absolute;
+}
+
+.sellcard {
+
+  width: 280px;
+  height: 250px;
+  background: linear-gradient(to right, #45454b -42%, #202020 100%);
+  margin-top: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+
+}
+
+.popup .Iconss :hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+.popup .Iconss {
+  color: rgb(90, 90, 90);
+  margin-top: 10px;
+  background: linear-gradient(to top, #000000d0 -42%, #3b3a3a 100%);
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 20px;
+
+
+}
+
+.sellcard p {
+  margin-left: 15px;
+  margin-top: 12px;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+
+.cardtop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.sellcardimg {
+  display: block;
+}
+
+.sellcardimgbackground {
+  background-color: rgba(255, 255, 255, 0.151);
+  width: 160px;
+  height: 80px;
+  margin-left: 60px;
+  transform: rotate(-55deg);
+  margin-top: 50px;
+
+
+  border-radius: 30px;
+
+}
+
+.detailtext p {
+  font-size: 14px;
+  text-align: center;
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.buttonsdownload button {
+  border: none;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.buttonsdownload button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 162, 255);
+}
+
+.iconn {
+  margin-bottom: -7px;
+}
+
+.Icons :hover {
+  cursor: pointer;
+  background-color: rgb(0, 162, 255);
+
+}
+
+.gamecard :hover {
+  cursor: pointer;
+  opacity: 0.5;
+
+}
+
+.iconn :hover {
+  cursor: pointer;
+  color: rgb(0, 162, 255);
+}
+
+.sellcard .cardtop .iconsright {
+
+
+  z-index: 2;
+
+
+
+
+}
+
+.sellcard .cardtop .iconsright :hover {
+  cursor: pointer;
+
+  color: rgb(0, 162, 255);
+}
+
+.buttonsdownload {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: white;
+  padding: 20px;
+
+}
+
+table tr {
+  font-size: 14px;
+
+
+}
+
+table {
+  margin-left: 10px;
+
+
+}
+
+.spacification {
+  height: 200px;
+
+}
+
+table tr th {
+
+  padding-left: 50px;
+}
+
+.gamedetail {
+  height: 350px;
+  width: 700px;
+  background: linear-gradient(to right, #45454b -42%, #202020 100%);
+
+
+
+  margin-top: 20px;
+
+
+  border-radius: 30px;
+}
+
+.GameBanners {
+  height: 200px;
+  width: 700px;
+  background-size: 92%;
+
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  border-radius: 30px;
+}
+
+.icon :hover {
+  cursor: pointer;
+}
+
+.userpic :hover {
+  cursor: pointer;
+}
+
+.Librarycard p {
+  margin-left: 15px;
+  margin-top: 12px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.Downloadlist .profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.userprofile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  border: 2px transparent solid;
+}
+
+.userprofile:hover {
+  border: 2px rgba(0, 107, 230, 0.534) solid;
+  cursor: pointer;
+  border-radius: 10px;
+
+
+}
+
+.Downloadlist .downloadbutton button {
+  background-color: transparent;
+  color: rgb(134, 134, 134);
+  border: rgb(151, 150, 150) 1px solid;
+  height: 35px;
+  border-radius: 25px;
+  width: 100px;
+  justify-self: flex-end;
+  margin-right: 5px;
+}
+
+.Downloadlist .downloadbutton button:hover {
+  color: rgb(10, 108, 236);
+  border: rgb(5, 93, 224) 1px solid;
+}
+
+.Downloadlist .profilepic img {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 12px;
+
+}
+
+.userprofile .profilepic img {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 12px;
+
+}
+
+.Downloadlist p {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.userprofile p {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.Downloadlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lastBody {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.Librarycard {
+  width: 412px;
+  height: 250px;
+  background: linear-gradient(to right, #45454b -42%, #202020 100%);
+  margin-top: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+
+.sellcardimg img {
+  width: 300px;
+  height: 300px;
+  left: 2px;
+  top: 3px;
+  margin-top: -190px;
+  z-index: 1;
+  position: relative;
+
+
+  padding: 0;
+}
+
+.gamecard img {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.gamecard p {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+
+}
+
+.gameList {
+  display: flex;
+
+  flex-direction: row;
+}
+
+.navbutton {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  border-radius: 7px;
+  font-size: 20px;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbuttona,
+.navbutton:hover {
+  background-color: rgb(0, 110, 255);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  border-radius: 7px;
+  font-size: 20px;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navbar {
+  width: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-right: rgba(90, 90, 90, 0.301) 1px solid;
+  position: fixed;
+
+}
+
+.navbar .logo {
+  width: 20px;
+  height: 20px;
+
+}
+
+
+.navbartext {
+  margin-top: 160px;
+}
+
+.Mbody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 120px;
+
+  width: 720px;
+
+}
+
+.Search {
+  width: 300px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  background-color: #141414;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 18px;
+}
+
+.Banners {
+  height: 200px;
+  width: 700px;
+  background: linear-gradient(to top, #45454b -42%, #000000 100%);
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  border-radius: 30px;
+}
+
+.bannerimage {
+  margin-top: -15px;
+
+}
+
+.bannerimage img {
+  padding-bottom: 0px;
+  width: 250px;
+  height: 250px;
+}
+
+.Banners button {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+
+
+}
+
+.Banners .Text .Sign :hover {
+  background-color: rgba(0, 53, 114, 0.747);
+  cursor: pointer;
+}
+
+.Banners Text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 0;
+}
+
+.Banners Text p {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+
+.Search input {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.Search input {
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+.rightbody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+
+  width: 377px;
+  margin-left: 46px;
+  margin-bottom: 30px;
+}
+
+.contactlist .cardtop {
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.contactlist .cardtop.p {
+  margin-bottom: 0;
+}
+
+.contactlist.online {
+  margin-top: 0px;
+
+}
+
+.contactlist p {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.contactlist {
+  background: linear-gradient(to right, #38383d -42%, #292929 100%);
+  height: 100%;
+  margin-top: 15px;
+  border-radius: 50px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.rightbody .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+
+
+}
+
+.rightbody .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 5px;
+}
