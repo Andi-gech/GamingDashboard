@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerico from "./assets/gamepic.jpg";
+
 import './App.css';
 export default function Profilecard({name,image,messages}) {
   return (

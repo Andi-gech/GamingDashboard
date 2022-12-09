@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerico from "./assets/gamepic.jpg";
+
 
 export default function Gamecard({onPress,name,imguri,size}) {
   return (

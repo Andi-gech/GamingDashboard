@@ -1,6 +1,6 @@
 import bannerico from "./assets/callof duty.jpg";
 import gamepics from "./assets/s1.jpg";
-import freefire from "./assets/p3.jpg";
+
 const channel=[{
     id:1,
     name:"Gta Fans",

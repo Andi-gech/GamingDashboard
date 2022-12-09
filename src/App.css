@@ -13,6 +13,186 @@ body {
   margin-left: 10px;
 }
 
+.games {
+  margin-left: 130px;
+}
+
+.catagories button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 140, 255);
+
+}
+
+.games {
+  width: 700px;
+}
+
+.individualgamelink .as .Text {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Text {
+  margin-left: 10px;
+}
+
+.individualgamelink .as .Text p {
+  width: 500px;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.individualgamelink .as .Text h3 {
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 5;
+}
+
+.individualgamelink .as {
+  display: flex;
+  flex-direction: row;
+  border: rgba(54, 53, 53, 0.322) 0.5px solid;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+  padding-left: 5px;
+}
+
+.individualgamelink .as:hover {
+  cursor: pointer;
+  border: rgba(1, 106, 138, 0.267) 0.5px solid;
+
+
+}
+
+.Pagination {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.Pagination :hover {
+  cursor: pointer;
+  background-color: rgb(0, 153, 255);
+}
+
+.Pagination .Pre:hover {
+  background-color: transparent;
+}
+
+.Pagination .num:hover {
+  background-color: transparent;
+}
+
+
+
+.Pagination button {
+  border: none;
+  margin-left: 5px;
+  width: 60px;
+  height: 30px;
+  background-color: #2e2e2e;
+  font-weight: 2px;
+  color: white;
+  border-radius: 3px;
+}
+
+.individualgamelink .as img {
+  width: 80px;
+  height: 80px;
+  border-radius: 13px;
+}
+
+.games p {
+  margin-bottom: 2px;
+}
+
+.videolist {
+  margin-left: 130px;
+}
+
+.Videocard {
+  background: linear-gradient(to right, #2a2a2b -42%, #2b2a2a 100%);
+  border-radius: 10px;
+  width: 410px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 10px;
+
+
+}
+
+iframe {
+
+  width: 400px;
+  height: 200px;
+  margin-bottom: 0px;
+
+
+}
+
+.videolists {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.profiletext {
+
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+
+
+  align-items: center;
+  color: white;
+  border-top: rgba(255, 255, 255, 0.11) 1px solid;
+  padding: 5px;
+  margin-left: 5px;
+  width: 390px;
+  margin-top: 10px;
+
+
+
+}
+
+.profiletext img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+
+.profiletext p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.catagories button {
+  border: none;
+  margin-left: 10px;
+  width: 60px;
+  height: 30px;
+  background-color: #2e2e2e;
+  font-weight: 2px;
+  color: white;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.catagories {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 .all {
   display: flex;

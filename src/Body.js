@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import './App.css';
-import { FaSearch,FaAngleDoubleLeft} from 'react-icons/fa/index.esm';
+import { FaSearch} from 'react-icons/fa/index.esm';
 import Banner from './Banner';
 import Gamecard from './gamecard';
 import Sellcard from './sellcard';
 
 import Library from './Library';
-import GameBanner from './gamebanner';
+
 import { getGames } from './data';
 import Gamings from './Gamings';
 
@@ -33,7 +33,7 @@ export default function Mbody
             <p>Most played games</p>
             <div className='gameList'>
               {games.map(game=>(
-                <Gamecard onPress={setcaractive=>setcardactive(game)} value={game} name={game.name} imguri={game.image} size={game.size}/>
+                <Gamecard key={game.id}onPress={setcaractive=>setcardactive(game)} value={game} name={game.name} imguri={game.image} size={game.size}/>
                 
               ))}
               </div>

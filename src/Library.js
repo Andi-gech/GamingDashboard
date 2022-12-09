@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaAngleDoubleRight} from 'react-icons/fa/index.esm';
+
 import Gamestatus from './gamestatus';
 
 export default function Library() {
