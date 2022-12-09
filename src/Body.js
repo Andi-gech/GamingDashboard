@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './App.css';
-import { FaSearch} from 'react-icons/fa/index.esm';
+
 import Banner from './Banner';
 import Gamecard from './gamecard';
 import Sellcard from './sellcard';
@@ -9,6 +9,7 @@ import Library from './Library';
 
 import { getGames } from './data';
 import Gamings from './Gamings';
+import Search from './Search';
 
 
 export default function Mbody
@@ -23,10 +24,7 @@ export default function Mbody
   const games=getGames()
   return (
     <div className='Mbody'>
-        <div className='Search'>
-        <input placeholder='Search'/>
-        <FaSearch size={25} color='rgb(199, 199, 199)'/>
-        </div>
+        <Search/>
         {active && <div >
             <Banner/>
             

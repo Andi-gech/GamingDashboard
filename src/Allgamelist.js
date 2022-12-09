@@ -1,15 +1,13 @@
 import React from 'react';
-import { FaSearch} from 'react-icons/fa/index.esm';
+
 import Individualgames from './Individualgames';
 import Pagination from './Pagination';
+import Search from './Search';
 
 function Allgamelist(props) {
     return (
         <div className='games'>
-            <div className='Search'>
-        <input placeholder='Search'/>
-        <FaSearch size={25} color='rgb(199, 199, 199)'/>
-        </div>
+          <Search/>
         <div>
             <p>Select Catagory</p>
             <div className='catagories'>
