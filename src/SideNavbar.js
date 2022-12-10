@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { FaHome,FaGamepad,FaYoutube ,FaUserFriends,FaPhone} from 'react-icons/fa/index.esm';
+import { FaHome,FaGamepad,FaYoutube ,FaUserFriends, FaDoorOpen} from 'react-icons/fa/index.esm';
 import { Link } from 'react-router-dom';
 function SideNavbar(props) {
     const [active,setactive]=useState("")
@@ -25,7 +25,7 @@ function SideNavbar(props) {
             <Link to="Friends"><FaUserFriends size={25} color='rgb(199, 199, 199)'  /></Link>
             </div>
             <div   className={active === "phone" ? "navbuttona" : "navbutton"} onClick={()=>updateactive("phone")}>
-            <Link to="phone"><FaPhone size={25} color='rgb(199, 199, 199)'  /></Link>
+            <Link to="/"><FaDoorOpen size={25} color='rgb(199, 199, 199)'  /></Link>
             </div>
             </div>
             

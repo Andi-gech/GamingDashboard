@@ -35,10 +35,161 @@ body {
 
 .Text {
   margin-left: 10px;
+
+}
+
+.individualgamelink .as .Text {
+  color: white;
+
+
+
+}
+
+.messagebord {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageContainter .contacts {
+  width: 300px;
+}
+
+.messageContainter .chat {
+  width: 400px;
+
+}
+
+.mainchatbox {
+  width: 85%;
+  height: 90%;
+
+  background: rgb(105, 167, 238);
+  border-radius: 20px;
+}
+
+.sender {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.reciever {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-left: 150px;
+}
+
+.reciever p {
+  font-size: 15px;
+
+  width: 300px;
+  background: linear-gradient(to right, #053ffa -42%, #c007c0 100%);
+
+  overflow-wrap: break-word;
+
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.sender p {
+  font-size: 15px;
+
+  width: 300px;
+  background-color: #2e2e2e;
+  overflow-wrap: break-word;
+
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.sender img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  align-self: flex-end;
+}
+
+.reciever img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  align-self: flex-end;
+}
+
+.sendmessage {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.sendmessage img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+
+}
+
+.chatbox {
+
+  background: linear-gradient(to right, #1f1f1f -42%, #1b1b1b 100%);
+  width: 504px;
+  height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-right: 20px;
+
+  align-items: flex-start;
+
+  margin: 0;
+  margin-top: 13px;
+  margin-left: 20px;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+.ics {
+  background: linear-gradient(to right, #053efa28 -42%, #c007c027 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border-radius: 30px;
+  width: 40px;
+  transform: rotate(40deg);
+
+
+
+}
+
+.sendmessage input {
+  width: 400px;
+  background-color: #64606048;
+  border: none;
+  padding-left: 20px;
+  color: white;
+  margin-left: 5px;
+  border-radius: 20px;
+}
+
+.messageContainter {
+  display: flex;
+  flex-direction: row;
 }
 
 .individualgamelink .as .Text p {
   width: 500px;
+  text-decoration: none;
   font-size: 14px;
   margin-top: 0;
 }
@@ -47,7 +198,10 @@ body {
   font-size: 15px;
   margin-bottom: 0;
   margin-top: 5;
+
 }
+
+
 
 .individualgamelink .as {
   display: flex;
@@ -105,6 +259,8 @@ body {
   border-radius: 13px;
 }
 
+
+
 .games p {
   margin-bottom: 2px;
 }
@@ -132,6 +288,7 @@ iframe {
   width: 400px;
   height: 200px;
   margin-bottom: 0px;
+
 
 
 }
