@@ -6,12 +6,16 @@ const games=[{
     name:"Elena",
     image:gamepics,
     Message:"hello friend",
+    youtube:"https://www.youtube.com/embed/sUKwTVAc0Vo",
+    popular:true
    
 
 },{id:2,
     name:"anduti",
     image:freefire,
     Message:"give me your pubg id",
+    youtube:"https://www.youtube.com/embed/sUKwTVAc0Vo",
+    popular:true
 
 },
 {
@@ -19,6 +23,8 @@ const games=[{
     name:"michel",
     image:bannerico,
     Message:"i sent you my instagram",
+    youtube:"https://www.youtube.com/embed/sUKwTVAc0Vo",
+    popular:false,
 }
 ]
 export function getusers() {

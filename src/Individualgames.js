@@ -1,14 +1,13 @@
 import React from 'react';
 import profile from "./assets/gamepic1.jpg";
-function Individualgames(props) {
+function Individualgames({game}) {
     return (
         <div className='individualgamelink'>
             <div className='as'>
-            <img src={profile} alt="gamepic1"/>
+            <img src={game.image} alt="gamepic1"/>
             <div className='Text'>
-                <h3>Valorant</h3>
-                <p>Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Microsoft Windows.</p>
-            </div>
+                <h3>{game.name}</h3>
+                <p>{game.details}</p> </div>
             </div>
             
         </div>

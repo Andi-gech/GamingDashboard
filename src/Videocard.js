@@ -1,7 +1,9 @@
 import React from 'react';
 import profile from "./assets/gamepic1.jpg";
-function Videocard(props) {
-    const src = "https://www.youtube.com/embed/sUKwTVAc0Vo";
+
+function Videocard({src ,name,image}) {
+   
+    
     return (
         <div className='Videocard'>
         <iframe 
@@ -14,9 +16,9 @@ function Videocard(props) {
       allowFullScreen
     />
     <div className='profiletext'>
-        <img src={profile} alt='Profile'/>
+        <img src={image} alt='Profile'/>
         <div className='profiletexts'>
-        <p>andutii</p>
+        <p>{name}</p>
         </div>
     
     </div>

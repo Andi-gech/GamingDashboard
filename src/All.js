@@ -5,6 +5,7 @@ import App from './App';
 import Allgamelist from './Allgamelist';
 import VIdeolist from './Videolist';
 import Message from './Message';
+import Gamings from './Gamings';
 
 
 function All() {
@@ -18,6 +19,7 @@ function All() {
 <Routes>
         <Route path="/" element={<App />} />
         <Route path="/gamepad" element={<Allgamelist />} />
+        <Route path='/gamepad/:id' element={<Gamings  />} />
         <Route path="/Youtube" element={<VIdeolist />} />
         <Route path="/Friends" element={<Message/>} />
 

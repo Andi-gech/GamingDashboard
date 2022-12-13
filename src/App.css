@@ -187,6 +187,16 @@ body {
   flex-direction: row;
 }
 
+.gamings {
+  margin-left: 140px;
+}
+
+
+:any-link {
+  color: rgb(221, 221, 221);
+  text-decoration: none;
+}
+
 .individualgamelink .as .Text p {
   width: 500px;
   text-decoration: none;

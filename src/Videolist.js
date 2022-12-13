@@ -2,11 +2,12 @@ import React from 'react';
 
 import Pagination from './Pagination';
 import Search from './Search';
+import { getusers } from './User';
 
 import Videocard from './Videocard';
 
 function VIdeolist(props) {
-    
+    const users=getusers()
     return (
         <div className='videolist'>
            <Search/>
@@ -14,15 +15,14 @@ function VIdeolist(props) {
         <div>
             <p>popular Gaming Videos</p>
             <div className='videolists'>
-                <Videocard/>
-                <Videocard/>
+            {users.map((user)=>user.popular &&(<Videocard src={user.youtube} image={user.image} name={user.name}/>))}
+              
                 
             </div>
             <p>Gaming Videos Feeds</p>
-            <div className='videolists'><Videocard/>
-                <Videocard/>
-                <Videocard/>
-                <Videocard/></div>
+            <div className='videolists'>
+            {users.map((user)=>(<Videocard src={user.youtube} image={user.image} name={user.name}/>))}
+                </div>
         </div>
        </div>
        <Pagination/>

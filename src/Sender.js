@@ -1,10 +1,10 @@
 import React from 'react';
 import profile from "./assets/gamepic1.jpg";
-function Sender(props) {
+function Sender({messages}) {
     return (
         <div className='sender'>
             <img src={profile}/>
-            <p>skdksdjskjdskjfksdjfksdjfksjvcccccccccccccccccccccccccccccccccccccccfksfjskfjskfjskdjfskdfjskfjsk</p>
+            <p>{messages}</p>
         </div>
     );
 }

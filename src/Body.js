@@ -10,6 +10,7 @@ import Library from './Library';
 import { getGames } from './data';
 import Gamings from './Gamings';
 import Search from './Search';
+import { Link } from 'react-router-dom';
 
 
 export default function Mbody
@@ -31,8 +32,8 @@ export default function Mbody
             <p>Most played games</p>
             <div className='gameList'>
               {games.map(game=>(
-                <Gamecard key={game.id}onPress={setcaractive=>setcardactive(game)} value={game} name={game.name} imguri={game.image} size={game.size}/>
-                
+               <Link to={`/gamepad/${game.id}` } state={game}> <Gamecard key={game.id} value={game} name={game.name} imguri={game.image} size={game.size}/>
+                </Link>
               ))}
               </div>
             <div className='lastBody'>
@@ -43,7 +44,7 @@ export default function Mbody
             </div>
            
         </div>}
-        {!active && <Gamings setactive={setcardactive} game={activearray} />}
+      
 
 
     </div>

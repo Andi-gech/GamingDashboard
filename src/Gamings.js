@@ -2,12 +2,16 @@ import React from 'react';
 import { FaAngleDoubleLeft } from 'react-icons/fa/index.esm';
 import GameBanner from './gamebanner';
 import Library from './Library';
+import { useLocation } from 'react-router-dom'
 import Sellcard from './sellcard';
 
-function Gamings({setactive,game }) {
-    
+function Gamings({setactive }) {
+  const location = useLocation()
+  const game=location.state
+  console.log(game)
     return (
-        <div >
+        <div  className='gamings'>
+          
             <GameBanner images={game.image}/>
             <p>{game.name}</p>
             <div className='gamedetail'>
